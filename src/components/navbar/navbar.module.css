@@ -1,0 +1,32 @@
+.nav {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+}
+
+.nav_color_transparent {
+    background: rgba(255, 153, 0, 0.73);
+}
+
+.nav_color {
+    background: rgb(255, 153, 0);
+}
+
+.logo {
+    color: white;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    float: left;
+    margin: 2em 1em 0px 5em;
+    color: white;
+}
