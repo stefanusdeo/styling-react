@@ -5,11 +5,13 @@
     top: 0;
     transition-timing-function: ease-in;
     transition: 0.5s;
+    z-index: 100;
 }
 
 .nav_color_transparent {
     background: rgba(255, 153, 0, 0.73);
 }
+
 
 .nav_color {
     background: rgb(255, 153, 0);
@@ -29,4 +31,13 @@
     float: left;
     margin: 2em 1em 0px 5em;
     color: white;
+}
+
+.list_link {
+    text-decoration:none;
+    color: white;
+}
+
+.list_link:hover {
+    color: purple;
 }
